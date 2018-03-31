@@ -1,0 +1,27 @@
+{
+  "name": "vsco.css",
+  "version": "0.0.1",
+  "description": "vsco filters for the web",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "vsco",
+    "css",
+    "filters",
+    "images",
+    "instagram",
+    "photos"
+  ],
+  "author": "Stanley Lim",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-build": "^0.5.3",
+    "gulp-cli": "^2.0.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^3.2.1",
+    "gulp-size": "^3.0.0"
+  }
+}
