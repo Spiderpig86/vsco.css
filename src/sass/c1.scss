@@ -1,0 +1,16 @@
+/* C1 Filter */
+
+.filter-c1 {
+    background: linear-gradient(#d5aeae, #8f8f8f, #c99d93, #185d62 110%);
+}
+
+.filter-c1 img {
+    -webkit-filter: grayscale(6%) contrast(115%);
+    filter: grayscale(6%) contrast(115%);
+    mix-blend-mode: hard-light;
+}
+
+.filter-c1:after {
+    background-color: #58747b;
+    mix-blend-mode: overlay;
+}
