@@ -1,3 +1,16 @@
+/* B1 Filter */
+.filter-b1 {
+  background: linear-gradient(#b1b1b1, #6f6f6f, #828282, #333333 110%); }
+
+.filter-b1 img {
+  filter: saturate(0.05) brightness(1.15) contrast(1.1) grayscale(95%);
+  -webkit-filter: saturate(0.05) brightness(1.15) contrast(1.1) grayscale(95%);
+  mix-blend-mode: hard-light; }
+
+.filter-b1:after {
+  background-color: #e0e0e0;
+  mix-blend-mode: multiply; }
+
 /** Base enhancement with brightening, increased saturation and contrast */
 .vsco:after {
   content: "";
