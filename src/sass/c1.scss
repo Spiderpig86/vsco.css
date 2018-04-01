@@ -1,16 +1,16 @@
 /* C1 Filter */
 
 .filter-c1 {
-    background: linear-gradient(#d5aeae, #8f8f8f, #c99d93, #185d62 110%);
+    background: linear-gradient(#d0a9a9, #bb8a8a, #d49390, rgba(24, 57, 60, 0.25) 110%);
 }
 
 .filter-c1 img {
-    -webkit-filter: grayscale(6%) contrast(115%);
-    filter: grayscale(6%) contrast(115%);
+    -webkit-filter: grayscale(6%) contrast(120%);
+    filter: grayscale(6%) contrast(120%);
     mix-blend-mode: hard-light;
 }
 
 .filter-c1:after {
-    background-color: #58747b;
+    background-color: rgba(31, 130, 124, 0.75);
     mix-blend-mode: overlay;
 }
