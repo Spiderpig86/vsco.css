@@ -2,15 +2,16 @@
 
 .filter-b1 {
     background: linear-gradient(#b1b1b1, #6f6f6f, #828282, #333333 110%);
-}
 
-.filter-b1 img {
-    filter: saturate(0.05) brightness(1.15) contrast(1.1) grayscale(95%);
-    -webkit-filter: saturate(0.05) brightness(1.15) contrast(1.1) grayscale(95%);
-    mix-blend-mode: hard-light;
-}
+    img {
+        filter: saturate(0.05) brightness(1.15) contrast(1.1) grayscale(95%);
+        -webkit-filter: saturate(0.05) brightness(1.15) contrast(1.1) grayscale(95%);
+        mix-blend-mode: hard-light;
+    }
 
-.filter-b1:after {
-    background-color: rgb(224, 224, 224);
-    mix-blend-mode: multiply;
+    &:after {
+        background-color: rgb(224, 224, 224);
+        mix-blend-mode: multiply;
+    }
+
 }

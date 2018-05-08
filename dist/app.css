@@ -1,31 +1,27 @@
 /* B1 Filter */
 .filter-b1 {
   background: linear-gradient(#b1b1b1, #6f6f6f, #828282, #333333 110%); }
-
-.filter-b1 img {
-  filter: saturate(0.05) brightness(1.15) contrast(1.1) grayscale(95%);
-  -webkit-filter: saturate(0.05) brightness(1.15) contrast(1.1) grayscale(95%);
-  mix-blend-mode: hard-light; }
-
-.filter-b1:after {
-  background-color: #e0e0e0;
-  mix-blend-mode: multiply; }
+  .filter-b1 img {
+    filter: saturate(0.05) brightness(1.15) contrast(1.1) grayscale(95%);
+    -webkit-filter: saturate(0.05) brightness(1.15) contrast(1.1) grayscale(95%);
+    mix-blend-mode: hard-light; }
+  .filter-b1:after {
+    background-color: #e0e0e0;
+    mix-blend-mode: multiply; }
 
 /* B5 Filter */
 .filter-b5 {
   background-color: #1f1f1f; }
-
-.filter-b5 img {
-  -webkit-filter: saturate(0.7) brightness(1) contrast(1.35) grayscale(1);
-  filter: saturate(0.7) brightness(1) contrast(1.35) grayscale(1);
-  mix-blend-mode: unset;
-  opacity: .9; }
-
-.filter-b5:after {
-  background-color: #b9b9b9;
-  mix-blend-mode: color-burn;
-  /* Burn gray in to darken the image */
-  opacity: .5; }
+  .filter-b5 img {
+    -webkit-filter: saturate(0.7) brightness(1) contrast(1.35) grayscale(1);
+    filter: saturate(0.7) brightness(1) contrast(1.35) grayscale(1);
+    mix-blend-mode: unset;
+    opacity: .9; }
+  .filter-b5:after {
+    background-color: #b9b9b9;
+    mix-blend-mode: color-burn;
+    /* Burn gray in to darken the image */
+    opacity: .5; }
 
 /** Base enhancement with brightening, increased saturation and contrast */
 .vsco:after {
@@ -43,12 +39,10 @@
 /* C1 Filter */
 .filter-c1 {
   background: linear-gradient(#d0a9a9, #bb8a8a, #d49390, rgba(24, 57, 60, 0.25) 110%); }
-
-.filter-c1 img {
-  -webkit-filter: grayscale(6%) contrast(120%);
-  filter: grayscale(6%) contrast(120%);
-  mix-blend-mode: hard-light; }
-
-.filter-c1:after {
-  background-color: rgba(31, 130, 124, 0.75);
-  mix-blend-mode: overlay; }
+  .filter-c1 img {
+    -webkit-filter: grayscale(6%) contrast(120%);
+    filter: grayscale(6%) contrast(120%);
+    mix-blend-mode: hard-light; }
+  .filter-c1:after {
+    background-color: rgba(31, 130, 124, 0.75);
+    mix-blend-mode: overlay; }

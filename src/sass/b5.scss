@@ -2,17 +2,17 @@
 
 .filter-b5 {
     background-color: #1f1f1f;
-}
+    
+    img {
+        -webkit-filter: saturate(.7) brightness(1) contrast(1.35) grayscale(1);
+        filter: saturate(.7) brightness(1) contrast(1.35) grayscale(1);
+        mix-blend-mode: unset;
+        opacity: .9;
+    }
 
-.filter-b5 img {
-    -webkit-filter: saturate(.7) brightness(1) contrast(1.35) grayscale(1);
-    filter: saturate(.7) brightness(1) contrast(1.35) grayscale(1);
-    mix-blend-mode: unset;
-    opacity: .9;
-}
-
-.filter-b5:after {
-    background-color: rgb(185, 185, 185);
-    mix-blend-mode: color-burn; /* Burn gray in to darken the image */
-    opacity: .5;
+    &:after {
+        background-color: rgb(185, 185, 185);
+        mix-blend-mode: color-burn; /* Burn gray in to darken the image */
+        opacity: .5;
+    }
 }
