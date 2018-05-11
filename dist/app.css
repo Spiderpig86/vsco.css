@@ -46,3 +46,13 @@
   .filter-c1:after {
     background-color: rgba(31, 130, 124, 0.75);
     mix-blend-mode: overlay; }
+
+/* F2 Filter */
+.filter-f2 {
+  background: linear-gradient(#b3b9c5, #5e6784); }
+  .filter-f2 img {
+    filter: contrast(1.2) saturate(1.5) grayscale(0.2);
+    opacity: 0.75; }
+  .filter-f2:after {
+    background: linear-gradient(#55626d 43%, #585d6f);
+    mix-blend-mode: soft-light; }
