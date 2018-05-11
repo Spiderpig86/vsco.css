@@ -1,14 +1,17 @@
 /* F2 Filter */
 
 .filter-f2 {
+    background: -webkit-gradient(linear, left top, left bottom, from(#b3b9c5), to(#5e6784));
     background: linear-gradient(#b3b9c5, #5e6784);
     
     img {
-        filter: contrast(1.2) saturate(1.5) grayscale(0.2);
+        -webkit-filter: contrast(1.2) saturate(1.5) grayscale(0.2);
+                filter: contrast(1.2) saturate(1.5) grayscale(0.2);
         opacity: 0.75;
     }
 
     &:after {
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(43%, #55626d), to(#585d6f));
         background: linear-gradient(#55626d 43%, #585d6f);
         mix-blend-mode: soft-light;
     }
