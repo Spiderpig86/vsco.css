@@ -90,3 +90,34 @@
     background: -webkit-gradient(linear, left top, left bottom, color-stop(43%, #69828c), to(#585d6f));
     background: linear-gradient(#69828c 43%, #585d6f);
     mix-blend-mode: soft-light; }
+
+/* M3 Filter */
+.filter-m3 {
+  background-color: #61564a; }
+  .filter-m3 img {
+    -webkit-filter: grayscale(0.2) contrast(1.2) saturate(1.2);
+    -moz-filter: grayscale(0.2) contrast(1.2) saturate(1.2);
+    -ms-filter: grayscale(0.2) contrast(1.2) saturate(1.2);
+    -o-filter: grayscale(0.2) contrast(1.2) saturate(1.2);
+    filter: grayscale(0.2) contrast(1.2) saturate(1.2);
+    mix-blend-mode: hard-light;
+    opacity: 0.7; }
+  .filter-m3:after {
+    background-color: #cce7de;
+    mix-blend-mode: multiply;
+    opacity: 0.35; }
+
+/* M5 Filter */
+.filter-m3 {
+  background: radial-gradient(#c09f81, #4a3528); }
+  .filter-m3 img {
+    -webkit-filter:     filter: grayscale(0.2) contrast(1.1) brightness(0.9);
+    -moz-filter:     filter: grayscale(0.2) contrast(1.1) brightness(0.9);
+    -ms-filter:     filter: grayscale(0.2) contrast(1.1) brightness(0.9);
+    -o-filter:     filter: grayscale(0.2) contrast(1.1) brightness(0.9);
+    filter:     filter: grayscale(0.2) contrast(1.1) brightness(0.9);
+    mix-blend-mode: hard-light; }
+  .filter-m3:after {
+    background: linear-gradient(#bbccce 50%, #a77b38);
+    mix-blend-mode: overlay;
+    opacity: 0.5; }

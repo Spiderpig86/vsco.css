@@ -1,0 +1,17 @@
+/* M5 Filter */
+@import "utils/filter";
+
+.filter-m3 {
+    background: radial-gradient(#c09f81, #4a3528);
+
+    img {
+        @include filter("    filter: grayscale(0.2) contrast(1.1) brightness(0.9)");
+        mix-blend-mode: hard-light;
+    }
+
+    &:after {
+        background: linear-gradient(#bbccce 50%, #a77b38);
+        mix-blend-mode: overlay;
+        opacity: 0.5;
+    }
+}

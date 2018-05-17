@@ -1,0 +1,18 @@
+/* M3 Filter */
+@import "utils/filter";
+
+.filter-m3 {
+    background-color: #61564a;
+
+    img {
+        @include filter("grayscale(0.2) contrast(1.2) saturate(1.2)");
+        mix-blend-mode: hard-light;
+        opacity: 0.7;
+    }
+
+    &:after {
+        background-color: #cce7de;
+        mix-blend-mode: multiply;
+        opacity: 0.35;
+    }
+}
