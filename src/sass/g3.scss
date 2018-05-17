@@ -1,12 +1,12 @@
 /* G3 Filter */
+@import "utils/filter";
 
 .filter-g3 {
     background: -webkit-gradient(linear, left top, left bottom, from(#948a7b), color-stop(15%, #928575), to(#4b6974));
     background: linear-gradient(#948a7b, #928575 15%, #4b6974);
     
     img {
-        -webkit-filter: contrast(1.15);
-                filter: contrast(1.15);
+        @include filter("contrast(1.15)");
         mix-blend-mode: hard-light;
     }
 

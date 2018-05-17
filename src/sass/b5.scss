@@ -1,11 +1,11 @@
 /* B5 Filter */
+@import "utils/filter";
 
 .filter-b5 {
     background-color: #1f1f1f;
     
     img {
-        -webkit-filter: saturate(.7) brightness(1) contrast(1.35) grayscale(1);
-        filter: saturate(.7) brightness(1) contrast(1.35) grayscale(1);
+        @include filter("saturate(.7) brightness(1) contrast(1.35) grayscale(1)");
         mix-blend-mode: unset;
         opacity: .9;
     }

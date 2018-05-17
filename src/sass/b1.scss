@@ -1,11 +1,11 @@
 /* B1 Filter */
+@import "utils/filter";
 
 .filter-b1 {
     background: linear-gradient(#b1b1b1, #6f6f6f, #828282, #333333 110%);
 
     img {
-        filter: saturate(0.05) brightness(1.15) contrast(1.1) grayscale(95%);
-        -webkit-filter: saturate(0.05) brightness(1.15) contrast(1.1) grayscale(95%);
+        @include filter("saturate(0.05) brightness(1.15) contrast(1.1) grayscale(95%)");
         mix-blend-mode: hard-light;
     }
 

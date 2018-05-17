@@ -2,8 +2,11 @@
 .filter-b1 {
   background: linear-gradient(#b1b1b1, #6f6f6f, #828282, #333333 110%); }
   .filter-b1 img {
-    filter: saturate(0.05) brightness(1.15) contrast(1.1) grayscale(95%);
     -webkit-filter: saturate(0.05) brightness(1.15) contrast(1.1) grayscale(95%);
+    -moz-filter: saturate(0.05) brightness(1.15) contrast(1.1) grayscale(95%);
+    -ms-filter: saturate(0.05) brightness(1.15) contrast(1.1) grayscale(95%);
+    -o-filter: saturate(0.05) brightness(1.15) contrast(1.1) grayscale(95%);
+    filter: saturate(0.05) brightness(1.15) contrast(1.1) grayscale(95%);
     mix-blend-mode: hard-light; }
   .filter-b1:after {
     background-color: #e0e0e0;
@@ -13,8 +16,11 @@
 .filter-b5 {
   background-color: #1f1f1f; }
   .filter-b5 img {
-    -webkit-filter: saturate(0.7) brightness(1) contrast(1.35) grayscale(1);
-    filter: saturate(0.7) brightness(1) contrast(1.35) grayscale(1);
+    -webkit-filter: saturate(.7) brightness(1) contrast(1.35) grayscale(1);
+    -moz-filter: saturate(.7) brightness(1) contrast(1.35) grayscale(1);
+    -ms-filter: saturate(.7) brightness(1) contrast(1.35) grayscale(1);
+    -o-filter: saturate(.7) brightness(1) contrast(1.35) grayscale(1);
+    filter: saturate(.7) brightness(1) contrast(1.35) grayscale(1);
     mix-blend-mode: unset;
     opacity: .9; }
   .filter-b5:after {
@@ -34,6 +40,9 @@
 
 .filter-base {
   -webkit-filter: saturate(1) brightness(1.1) contrast(1.1) grayscale(0);
+  -moz-filter: saturate(1) brightness(1.1) contrast(1.1) grayscale(0);
+  -ms-filter: saturate(1) brightness(1.1) contrast(1.1) grayscale(0);
+  -o-filter: saturate(1) brightness(1.1) contrast(1.1) grayscale(0);
   filter: saturate(1) brightness(1.1) contrast(1.1) grayscale(0); }
 
 /* C1 Filter */
@@ -41,6 +50,9 @@
   background: linear-gradient(#d0a9a9, #bb8a8a, #d49390, rgba(24, 57, 60, 0.25) 110%); }
   .filter-c1 img {
     -webkit-filter: grayscale(6%) contrast(120%);
+    -moz-filter: grayscale(6%) contrast(120%);
+    -ms-filter: grayscale(6%) contrast(120%);
+    -o-filter: grayscale(6%) contrast(120%);
     filter: grayscale(6%) contrast(120%);
     mix-blend-mode: hard-light; }
   .filter-c1:after {
@@ -53,6 +65,9 @@
   background: linear-gradient(#b3b9c5, #5e6784); }
   .filter-f2 img {
     -webkit-filter: contrast(1.2) saturate(1.5) grayscale(0.2);
+    -moz-filter: contrast(1.2) saturate(1.5) grayscale(0.2);
+    -ms-filter: contrast(1.2) saturate(1.5) grayscale(0.2);
+    -o-filter: contrast(1.2) saturate(1.5) grayscale(0.2);
     filter: contrast(1.2) saturate(1.5) grayscale(0.2);
     opacity: 0.75; }
   .filter-f2:after {
@@ -66,6 +81,9 @@
   background: linear-gradient(#948a7b, #928575 15%, #4b6974); }
   .filter-g3 img {
     -webkit-filter: contrast(1.15);
+    -moz-filter: contrast(1.15);
+    -ms-filter: contrast(1.15);
+    -o-filter: contrast(1.15);
     filter: contrast(1.15);
     mix-blend-mode: hard-light; }
   .filter-g3:after {
