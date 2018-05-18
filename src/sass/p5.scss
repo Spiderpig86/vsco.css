@@ -1,0 +1,18 @@
+/* P5 Filter */
+@import "utils/filter";
+
+.filter-p5 {
+    background-color: #509493;
+
+    img {
+        @include filter("contrast(1.3) saturate(1.7)");
+        opacity: 0.75;
+        mix-blend-mode: hard-light;
+    }
+
+    &:after {
+        background: linear-gradient(to bottom, #d0d2d1, #8c78a0, #646983, #252c37);
+        mix-blend-mode: soft-light;
+        opacity: 0.3;
+    }
+}

@@ -121,3 +121,19 @@
     background: linear-gradient(#bbccce 50%, #a77b38);
     mix-blend-mode: overlay;
     opacity: 0.5; }
+
+/* P5 Filter */
+.filter-p5 {
+  background-color: #509493; }
+  .filter-p5 img {
+    -webkit-filter: contrast(1.3) saturate(1.7);
+    -moz-filter: contrast(1.3) saturate(1.7);
+    -ms-filter: contrast(1.3) saturate(1.7);
+    -o-filter: contrast(1.3) saturate(1.7);
+    filter: contrast(1.3) saturate(1.7);
+    opacity: 0.75;
+    mix-blend-mode: hard-light; }
+  .filter-p5:after {
+    background: linear-gradient(to bottom, #d0d2d1, #8c78a0, #646983, #252c37);
+    mix-blend-mode: soft-light;
+    opacity: 0.3; }
