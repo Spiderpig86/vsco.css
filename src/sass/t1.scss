@@ -1,0 +1,18 @@
+/* T1 Filter */
+@import "utils/filter";
+
+.filter-t1 {
+    background-color: #82807c;
+
+    img {
+        @include filter("grayscale(0.4) contrast(1.4)");
+        mix-blend-mode: hard-light;
+        opacity: 0.9;
+    }
+
+    &:after {
+        background-color: #676562;
+        mix-blend-mode: lighten;
+        opacity: 0.5;
+    }
+}

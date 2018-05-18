@@ -1,0 +1,19 @@
+/* X1 Filter */
+@import "utils/filter";
+
+.filter-x1 {
+    background-color: #3c3c3c;
+
+    img {
+        @include filter("grayscale(1) contrast(1.4) brightness(1.2)");
+        mix-blend-mode: color-dodge;
+        opacity: 0.9;
+    }
+
+    &:after {
+        background: linear-gradient(to bottom, #a8b1ca, #878a94, #000000);
+        mix-blend-mode: darken;
+        opacity: .3;
+    }
+
+}

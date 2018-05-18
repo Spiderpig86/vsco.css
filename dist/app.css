@@ -108,16 +108,16 @@
     opacity: 0.35; }
 
 /* M5 Filter */
-.filter-m3 {
+.filter-m5 {
   background: radial-gradient(#c09f81, #4a3528); }
-  .filter-m3 img {
+  .filter-m5 img {
     -webkit-filter:     filter: grayscale(0.2) contrast(1.1) brightness(0.9);
     -moz-filter:     filter: grayscale(0.2) contrast(1.1) brightness(0.9);
     -ms-filter:     filter: grayscale(0.2) contrast(1.1) brightness(0.9);
     -o-filter:     filter: grayscale(0.2) contrast(1.1) brightness(0.9);
     filter:     filter: grayscale(0.2) contrast(1.1) brightness(0.9);
     mix-blend-mode: hard-light; }
-  .filter-m3:after {
+  .filter-m5:after {
     background: linear-gradient(#bbccce 50%, #a77b38);
     mix-blend-mode: overlay;
     opacity: 0.5; }
@@ -137,3 +137,35 @@
     background: linear-gradient(to bottom, #d0d2d1, #8c78a0, #646983, #252c37);
     mix-blend-mode: soft-light;
     opacity: 0.3; }
+
+/* T1 Filter */
+.filter-t1 {
+  background-color: #82807c; }
+  .filter-t1 img {
+    -webkit-filter: grayscale(0.4) contrast(1.4);
+    -moz-filter: grayscale(0.4) contrast(1.4);
+    -ms-filter: grayscale(0.4) contrast(1.4);
+    -o-filter: grayscale(0.4) contrast(1.4);
+    filter: grayscale(0.4) contrast(1.4);
+    mix-blend-mode: hard-light;
+    opacity: 0.9; }
+  .filter-t1:after {
+    background-color: #676562;
+    mix-blend-mode: lighten;
+    opacity: 0.5; }
+
+/* X1 Filter */
+.filter-x1 {
+  background-color: #3c3c3c; }
+  .filter-x1 img {
+    -webkit-filter: grayscale(1) contrast(1.4) brightness(1.2);
+    -moz-filter: grayscale(1) contrast(1.4) brightness(1.2);
+    -ms-filter: grayscale(1) contrast(1.4) brightness(1.2);
+    -o-filter: grayscale(1) contrast(1.4) brightness(1.2);
+    filter: grayscale(1) contrast(1.4) brightness(1.2);
+    mix-blend-mode: color-dodge;
+    opacity: 0.9; }
+  .filter-x1:after {
+    background: linear-gradient(to bottom, #a8b1ca, #878a94, #000000);
+    mix-blend-mode: darken;
+    opacity: .3; }
