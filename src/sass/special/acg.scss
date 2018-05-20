@@ -1,0 +1,18 @@
+/* ACG Filter */
+@import "../utils/filter";
+
+.filter-acg {
+    background-color: #eceedf;
+
+    img {
+        @include filter("grayscale(0.4) contrast(1.4) brightness(0.9) hue-rotate(-5deg);");
+        mix-blend-mode: darken;
+        opacity: 0.85;
+    }
+
+    &:after {
+        background: linear-gradient(-180deg, #77766f 30%, #6a6f68 60%, #45353e 100%);
+        mix-blend-mode: overlay;
+        opacity: 0.4;
+    }
+}

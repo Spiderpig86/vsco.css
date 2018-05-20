@@ -1,6 +1,17 @@
 /* HB1 Filter */
-@import "../utils/filter"
+@import "../utils/filter";
 
 .filter-hb1 {
-    
+    background: linear-gradient(-180deg, #a9afbf 30%, #9da7b1 48%, #a3a9b3 65%, #a3a9b3 58%, #93aed0 86%, #51617b 100%);
+
+    img {
+        @include filter("grayscale(0.2) contrast(1.2) saturate(1.4)");
+        mix-blend-mode: hard-light;
+    }
+
+    &:after {
+        background-color: #1a3b44;
+        mix-blend-mode: lighten;
+        opacity: 0.45;
+    }
 }

@@ -4,7 +4,7 @@ var minify = require('gulp-minify-css');
 var $ = require('gulp-load-plugins')();
 
 gulp.task('compile', function() {
-    gulp.src('./src/sass/*.scss')
+    gulp.src('./src/sass/**/*.scss')
         .pipe(sass().on('error', sass.logError))
         .pipe($.concat('app.css'))
         .pipe(gulp.dest('./dist/'));
