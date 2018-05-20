@@ -1,5 +1,5 @@
 /** Base enhancement with brightening, increased saturation and contrast */
-@import "utils/filter";
+@import "../utils/filter";
 
 .vsco:after {
     content: "";
