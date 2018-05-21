@@ -5,7 +5,7 @@
     background-color: #eceedf;
 
     img {
-        @include filter("grayscale(0.4) contrast(1.4) brightness(0.9) hue-rotate(-5deg);");
+        @include filter("grayscale(0.4) contrast(1.4) brightness(0.9) hue-rotate(-5deg)");
         mix-blend-mode: darken;
         opacity: 0.85;
     }

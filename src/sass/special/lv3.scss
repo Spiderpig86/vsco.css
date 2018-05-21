@@ -1,0 +1,17 @@
+/* LV3 Filter */
+@import "../utils/filter";
+
+.filter-lv3 {
+    background: linear-gradient(-179deg, #a48a7a 0%, #927f77 37%, #ac8577 49%, #574d47 100%);
+
+    img {
+        @include filter("grayscale(0.2) contrast(1.3)");
+        mix-blend-mode: hard-light;
+    }
+
+    &:after {
+        background: #333;
+        opacity: .3;
+        mix-blend-mode: overlay;
+    }
+}
